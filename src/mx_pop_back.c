@@ -1,6 +1,6 @@
 #include "../inc/libmx.h"
 
-void *mx_pop_back(t_list **head) {
+void mx_pop_back(t_list **head) {
     t_list *node = *head;
 
     if (head == NULL || *head == NULL) {

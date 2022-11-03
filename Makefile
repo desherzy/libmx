@@ -1,4 +1,4 @@
-all: libmx clean
+all: libmx
 
 libmx:
 	mkdir obj
@@ -15,4 +15,5 @@ uninstall:
 	rm -rf libmx.a
 
 reinstall:
-	uninstall all
+	make uninstall
+	make
