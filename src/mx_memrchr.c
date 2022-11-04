@@ -16,10 +16,12 @@ void *mx_memrchr(const void *s, int c, size_t n) {
     return NULL;
 }
 
+/*
 int main() {
     char str[] = "abcdifghijklmnopqrstuvwxyz";
     size_t lenght = mx_strlen(str);
 
     printf("str : %s\n", mx_memrchr(str, 'm', lenght));
 }
+*/
 
